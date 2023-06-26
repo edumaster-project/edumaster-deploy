@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+}
+
+.login {
+  @apply bg-gray-700 w-screen h-screen font-custom flex justify-center items-center;
+}
+
+.dashboard {
+  @apply bg-gray-700 w-screen h-screen font-custom;
+}
